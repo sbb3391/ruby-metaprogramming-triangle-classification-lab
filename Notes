@@ -1,0 +1,12 @@
+  def kind
+    if self.count == 3 
+      :equilateral
+    elsif self.count == 1
+      :isosceles
+    elsif self.count == 0
+      :scalene
+    end
+  end
+
+Why was this failing??
+
